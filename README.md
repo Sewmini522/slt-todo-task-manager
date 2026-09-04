@@ -80,7 +80,7 @@ needs to exist. We'll create an empty database called todo_app using phpMyAdmin 
 4. Leave the collation as default (or pick utf8mb4_unicode_ci if asked). 5. Click Create.
 
 <img width="315" height="808" alt="Picture1" src="https://github.com/user-attachments/assets/954bc68e-45b8-404e-897f-06d33424b4b5" />
-![image](https://github.com/user/repo/assets/xxxx)
+
 
 Step 3: Point Laravel at the MySQL database
 What we're doing and why: Laravel reads its database connection settings from a file
@@ -207,7 +207,9 @@ Open TaskController.php file Edit And Save.
 
 Step 12: Wire up the routes
 
-What we're doing and why: The controller methods exist, but nothing calls them yet. Routes map a URL + HTTP method (like GET /api/tasks) to a specific controller method. Where: Open backend/routes/api.php.
+What we're doing and why: The controller methods exist, but nothing calls them yet. Routes map a URL + HTTP method (like GET /api/tasks) to a specific controller method. 
+
+Where: Open backend/routes/api.php.
 
 Open api.php file Edit And Save. api.php file if not available
 
@@ -217,11 +219,12 @@ php artisan install:api
 Step 2: Answer the prompt
 Yes
 
-<img width="272" height="182" alt="Picture3" src="https://github.com/user-attachments/assets/cfb0faa4-21c8-41bf-88af-406fe7a133ac" />
-<img width="272" height="182" alt="Picture3" src="https://github.com/user-attachments/assets/498b3688-351c-4ace-8921-3b8c74c22d78" />
 Save the file. Let's test it
 Start the Laravel server:
 php artisan serve
+
+<img width="1918" height="978" alt="Picture2" src="https://github.com/user-attachments/assets/3b7109f5-3c8a-4cf2-b417-8535430d926b" />
+
 
 Step 13: Test creating a task
 Let's verify the store() (create) endpoint and its validation work too. 
@@ -260,7 +263,7 @@ Step A — create a second MySQL database:
 · Go to http://localhost/phpmyadmin
 · Create a new database named exactly: todo_app_testing
 
-![image](https://github.com/user/repo/assets/xxxx)
+<img width="272" height="182" alt="Picture3" src="https://github.com/user-attachments/assets/cfb0faa4-21c8-41bf-88af-406fe7a133ac" />
 
 Step 16: Write our first backend test
 What we're doing and why: We'll create one test file covering all the key API behaviors
@@ -323,7 +326,8 @@ VITE v5.x.x ready in xxx ms
 
 The React + Vite frontend is up and running successfully.
 
-![image](https://github.com/user/repo/assets/xxxx)
+
+<img width="796" height="652" alt="Picture4" src="https://github.com/user-attachments/assets/39a20609-bfd2-4413-b5d6-a0df6a7cbf3f" />
 
 
 ## Frontend Setup
@@ -396,7 +400,8 @@ php artisan serve
 
 What to expect: INFO Server running on [http://127.0.0.1:8000]
 
-![image](https://github.com/user/repo/assets/xxxx)
+<img width="1918" height="978" alt="Picture5" src="https://github.com/user-attachments/assets/041f1dea-dd82-4d86-af85-424ede17c8a7" />
+
 
 Step 7: Start the frontend (React)
 
@@ -408,27 +413,34 @@ What to expect:
 VITE v5.x.x ready in xxx ms
 ➜ Local: http://localhost:5173/
 
-![image](https://github.com/user/repo/assets/xxxx)
+<img width="1915" height="972" alt="Picture6" src="https://github.com/user-attachments/assets/2b94112e-795c-406b-9355-1a0ce83f12ea" />
+
 
 Interfece Design Output
-![image](https://github.com/user/repo/assets/xxxx)
+<img width="1918" height="1028" alt="Picture7" src="https://github.com/user-attachments/assets/1ea6bc40-4eda-4edc-9293-e333a1cc553f" />
+
 
 Edit and update
-![image](https://github.com/user/repo/assets/xxxx)
+<img width="1918" height="1015" alt="Picture8" src="https://github.com/user-attachments/assets/69ef9abc-ac66-4384-a44e-4e4993a90419" />
 
-![image](https://github.com/user/repo/assets/xxxx)
+
+<img width="1918" height="1026" alt="Picture9" src="https://github.com/user-attachments/assets/06b73c0c-e397-4fcf-adee-3d9071ce2f64" />
+
 
 Can edit also phpmyadmin
-![image](https://github.com/user/repo/assets/xxxx)
+<img width="1877" height="1022" alt="Picture10" src="https://github.com/user-attachments/assets/cb885c02-3d3a-42aa-ae80-dc258f38fbd7" />
+
 
 After edit
-![image](https://github.com/user/repo/assets/xxxx)
+
 
 Then after refresh react browser
-![image](https://github.com/user/repo/assets/xxxx)
+<img width="1918" height="1025" alt="Picture12" src="https://github.com/user-attachments/assets/b9d4d569-7d1c-4443-ba38-31cea70dfc65" />
+
 
 Only the most recent 5 incomplete To-Do tasks are displayed in the UI at any time
-![image](https://github.com/user/repo/assets/xxxx)
+<img width="1918" height="1032" alt="Picture13" src="https://github.com/user-attachments/assets/c6bd7aba-ca66-4e69-b37d-c2f8b0b31090" />
+
 
 ## Running Tests
 
@@ -486,7 +498,8 @@ What to expect:
 Test Files 1 passed (1)
 Tests 4 passed (4)
 
-![image](https://github.com/user/repo/assets/xxxx)
+<img width="1183" height="311" alt="Picture14" src="https://github.com/user-attachments/assets/4a2469d9-f229-4ad7-9282-3b81139a2318" />
+
 
 Step 6: Test TaskCard and TaskList
  
@@ -504,9 +517,7 @@ What to expect:
 Test Files 3 passed (3)
 Tests 10 passed (10)
 
-![image](https://github.com/user/repo/assets/xxxx)<img width="315" height="808" alt="Picture1" src="https://github.com/user-attachments/assets/420d7380-f5be-46bf-acaf-3dccea1e75c4" />
-<img width="315" height="808" alt="Picture1" src="https://github.com/user-attachments/assets/132141f8-2d3e-468e-a775-7f6a5b3f4473" />
-
+<img width="1071" height="303" alt="Picture15" src="https://github.com/user-attachments/assets/da0760b5-de89-439b-9614-089d5c451ea5" />
 
 
 ## API Endpoints
